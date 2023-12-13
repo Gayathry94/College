@@ -51,6 +51,7 @@ public class lo extends HttpServlet {
 		String uname1=request.getParameter("uname");
 		String pass1=request.getParameter("pass");
 		System.out.println("post");
+		System.out.println("hi");
 		try{  
 			Class.forName("com.mysql.cj.jdbc.Driver");  
 			Connection con=DriverManager.getConnection(  
